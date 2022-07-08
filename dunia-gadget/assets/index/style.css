@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* scrollbar */
+/* html::-webkit-scrollbar {
+    width: 1.5rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #000;
+} */
+
+/* navbar */
+.navbar {
+    padding: 24px 0px 24px 0px;
+}
+.navbar-brand {
+    font-size: 30px;
+    color: #fff;
+}
+.nav-link {
+    color: #fff;
+    font-weight: 300;
+}
+.nav-link:hover,
+.nav-link.active {
+    color: #fff;
+    font-weight: 500;
+}
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+}
+
+/* home */
+.home-detail h2 {
+	margin-top: 120px;
+	font-size: 72px;
+	font-weight: 800;
+	text-transform: capitalize;
+	margin-bottom: 50px;
+}
+
+.home-img img {
+	margin-top: 80px;
+	width: 100%;
+}
